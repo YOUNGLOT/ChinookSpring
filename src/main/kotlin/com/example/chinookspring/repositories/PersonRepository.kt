@@ -1,6 +1,6 @@
-package repositories
+package com.example.chinookspring.repositories
 
-import entities.Person
+import com.example.chinookspring.entities.Person
 import java.sql.PreparedStatement
 import java.sql.ResultSet
 

@@ -1,7 +1,5 @@
 package com.example.chinookspring.entities
 
-import entities.SingleKeyEntity
-
 // Value Object == Entity == Data Transfer Object
 
 class Album : SingleKeyEntity<Int>(){

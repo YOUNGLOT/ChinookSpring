@@ -1,6 +1,7 @@
-package repositories
+package com.example.chinookspring.repositories
 
-import entities.Invoice
+import com.example.chinookspring.entities.Invoice
+import com.example.chinookspring.repositories.Repository
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import java.time.LocalDateTime

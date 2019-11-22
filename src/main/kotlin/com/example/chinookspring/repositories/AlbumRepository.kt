@@ -1,4 +1,4 @@
-package repositories
+package com.example.chinookspring.repositories
 
 import com.example.chinookspring.entities.Album
 import java.sql.PreparedStatement

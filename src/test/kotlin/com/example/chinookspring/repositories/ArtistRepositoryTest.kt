@@ -1,6 +1,7 @@
-package repositories
+package com.example.chinookspring.repositories
 
-import entities.Artist
+import com.example.chinookspring.entities.Artist
+import com.example.chinookspring.repositories.Repository
 import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*

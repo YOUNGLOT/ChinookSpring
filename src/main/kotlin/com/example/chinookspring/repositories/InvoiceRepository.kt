@@ -1,12 +1,8 @@
-package repositories
+package com.example.chinookspring.repositories
 
-import entities.Artist
-import entities.Entity
-import entities.Invoice
-import entities.SingleKeyEntity
+import com.example.chinookspring.entities.Invoice
 import java.sql.PreparedStatement
 import java.sql.ResultSet
-import java.time.LocalDate
 import java.time.LocalDateTime
 
 class InvoiceRepository: SingleKeyEntityRepository<Invoice, Int>() {

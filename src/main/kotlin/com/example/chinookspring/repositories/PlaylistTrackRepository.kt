@@ -1,8 +1,7 @@
-package repositories
+package com.example.chinookspring.repositories
 
-import entities.PlaylistTrack
-import exceptions.UnupdatableException
-import java.lang.Exception
+import com.example.chinookspring.entities.PlaylistTrack
+import com.example.chinookspring.exceptions.UnupdatableException
 import java.sql.PreparedStatement
 import java.sql.ResultSet
 

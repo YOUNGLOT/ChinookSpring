@@ -1,6 +1,6 @@
-package repositories
+package com.example.chinookspring.repositories
 
-import entities.SingleKeyEntity
+import com.example.chinookspring.entities.SingleKeyEntity
 
 abstract class SingleKeyEntityRepository<T: SingleKeyEntity<K>, K> : EntityRepository<T>() {
     fun getByPK(id: K): T? {

@@ -1,4 +1,6 @@
-package entities
+package com.example.chinookspring.entities
+
+import com.example.chinookspring.entities.DoubleKeyEntity
 
 class PlaylistTrack: DoubleKeyEntity<Int, Int>() {
     var playlistId: Int = 0

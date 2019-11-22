@@ -1,5 +1,6 @@
 package com.example.chinookspring
 
+import com.example.chinookspring.repositories.Repository
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -7,7 +8,7 @@ import org.springframework.boot.runApplication
 @SpringBootApplication
 class ChinookspringApplication : CommandLineRunner {
     override fun run(vararg args: String?) {
-        println("hello world!")
+        println(Repository.album.count())
     }
 }
 

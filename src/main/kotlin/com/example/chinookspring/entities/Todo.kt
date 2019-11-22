@@ -1,8 +1,8 @@
-package entities
+package com.example.chinookspring.entities
 
+import com.example.chinookspring.entities.SingleKeyEntity
 import java.sql.Date
 import java.time.LocalDate
-import java.time.LocalDateTime
 
 class Todo : SingleKeyEntity<Int>() {
     var todoId: Int = 0

@@ -1,7 +1,8 @@
-package repositories
+package com.example.chinookspring.repositories
 
-import entities.PlaylistTrack
-import exceptions.UnupdatableException
+import com.example.chinookspring.entities.PlaylistTrack
+import com.example.chinookspring.exceptions.UnupdatableException
+import com.example.chinookspring.repositories.Repository
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows

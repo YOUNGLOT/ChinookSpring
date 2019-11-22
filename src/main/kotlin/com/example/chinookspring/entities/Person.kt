@@ -1,4 +1,4 @@
-package entities
+package com.example.chinookspring.entities
 
 class Person: SingleKeyEntity<String>() {
     var nId: String = ""

@@ -1,6 +1,6 @@
-package repositories
+package com.example.chinookspring.repositories
 
-import entities.DoubleKeyEntity
+import com.example.chinookspring.entities.DoubleKeyEntity
 
 abstract class DoubleKeyEntityRepository<T: DoubleKeyEntity<K1, K2>, K1, K2>: EntityRepository<T>() {
     override val getLastQuery: String

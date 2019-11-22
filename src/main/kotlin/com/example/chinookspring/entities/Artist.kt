@@ -1,4 +1,4 @@
-package entities
+package com.example.chinookspring.entities
 
 class Artist : SingleKeyEntity<Int>() {
     var artistId: Int = 0

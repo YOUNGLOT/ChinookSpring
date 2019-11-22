@@ -1,4 +1,4 @@
-package entities
+package com.example.chinookspring.entities
 
 import java.time.LocalDateTime
 

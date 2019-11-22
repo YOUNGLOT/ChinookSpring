@@ -1,4 +1,4 @@
-package repositories
+package com.example.chinookspring.repositories
 
 object Repository {
     val album = AlbumRepository()

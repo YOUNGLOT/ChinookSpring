@@ -1,7 +1,6 @@
-package repositories
+package com.example.chinookspring.repositories
 
-import entities.Artist
-import java.sql.DriverManager
+import com.example.chinookspring.entities.Artist
 import java.sql.PreparedStatement
 import java.sql.ResultSet
 
