@@ -1,5 +1,8 @@
 package com.example.chinookspring.entities
 
+import com.fasterxml.jackson.annotation.JsonIgnore
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties
+
 // Value Object == Entity == Data Transfer Object
 
 class Album : SingleKeyEntity<Int>(){
